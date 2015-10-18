@@ -10,19 +10,21 @@ nav{
 	    padding-top: 4em;
 	    text-transform: uppercase;
 	    .brand-logo {
-			img{
-				border:0;
-				width: 4em;
-				margin-top: -.7em;
-				margin-left: 4em;
-			}
+				margin-left: 2em;
+				line-height: 1.8em;
 	    }
 	    .hide-on-med-and-down {
 			margin-right: 7em;
 	    }
-	    a {
-	    	margin-left: 1.5em;
+    ul {
+    	a {
+    	margin-left: 1.5em;
+    	font-size: 1.2em;
+	    	&:hover{
+	    		color: #FF9600;
+	    	}
 	    }
+    }  
 	}
 	.side-nav {
 		&:first-child{
@@ -32,11 +34,36 @@ nav{
 			border: 0;
     		height: 8em;
     		width: 100%;
-    		margin-top: 4em;
+    		margin-top: 2.2em;
 		}
 	}
+	.button-collapse{
+		i{
+			margin-left: 1em;
+			line-height: 1.4em;
+		}
+	}  
 }
 
 .container{
 	margin-top: 10em;
+		.hero{
+			width:100%;
+			h1{
+			font-size: 4em;
+			text-align: center;
+			padding-bottom: 1em;
+		}
+	}
+	
+	table{
+		thead{
+			border-bottom: none;
+		}
+		tr {
+			th {
+				text-align: center;
+			}
+		}
+	}
 }
