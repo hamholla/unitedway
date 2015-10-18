@@ -37,5 +37,5 @@ build/
 # Vagrant working dir
 /.vagrant
 
-/db/
+/db/*.sqlite3
 /log/
