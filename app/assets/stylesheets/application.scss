@@ -110,6 +110,29 @@ $xx-light-gray: #F8F8F9;
 				}
 			}
 		}
+
+		form#new_user {
+    	margin-top: 7em;
+    	.field{
+				display: block;
+	  		margin-top: 0em;
+	  		margin: auto;
+	  		width: 50%;
+			}
+			.actions{
+				margin-left: 20.7em;
+    		margin-top: 2em;
+			}
+		}
+		.users-signup{
+			margin-top: 2em;
+			margin-bottom: 2em;
+			a{
+				margin-left: 20.7em;
+				margin-top: 2em;
+    		margin-bottom: 2em;
+			}
+		}
 	}
 }
 
