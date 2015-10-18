@@ -27,12 +27,6 @@
       <ul class="side-nav" id="mobile-demo">
       	<li><%= image_tag "logo.png" %></li>
         <li><a href="#">Committed</a></li>
-<<<<<<< HEAD
-        <li><a href="#">User Account</a></li>
-        <li><a href="#">Opportunities</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">Logout</a></li>
-=======
         <li><a href="#">Local Opportunities</a></li>
         <%if signed_in?%>
           <li><%=link_to current_user.email, edit_user_registration_path%></li>
@@ -41,8 +35,6 @@
           <li><%=link_to "Register", new_user_registration_path%></li>
           <li><%=link_to "Login", new_user_session_path%></li>
         <%end%>
-        <li><%= image_tag "logo.png" %></li>
->>>>>>> master
       </ul>
     </div>
   </nav>
