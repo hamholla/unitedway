@@ -1,0 +1,24 @@
+
+
+<div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Location Services</h4>
+      <p>Can we use your devices location? This helps us find volunteer opportunities nearby!</p>
+      <p>Enter your zipcode here</p>
+      <div class="input-field col s6">
+          <input placeholder="Placeholder" id="zipcode" type="text" class="validate">
+          <label for="zipcode">Zip Code</label>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Disagree</a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('#modal1').openModal();
+  });
+        </script>
