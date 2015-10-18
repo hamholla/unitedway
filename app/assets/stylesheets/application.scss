@@ -63,11 +63,20 @@ $xx-light-gray: #F8F8F9;
 	}
 
 	.container{
+		width: 90%;
+		.category-hero{
+			background: url("cltskyline.png");
+    	background-size: 83em 23em;
+    	background-repeat: no-repeat;
+    	height: 17em;
+		}
 		h1{
-			margin-top: 3em;
-			text-align: center;
-			padding-bottom: .5em;
-			font-size: 3em;
+			margin-top: 2em;
+	    text-align: center;
+	    padding-bottom: .5em;
+	    font-size: 3em;
+	    line-height: 2;
+	    color: white;
 		}
 			.hero{
 				width:100%;
