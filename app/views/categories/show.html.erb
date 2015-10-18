@@ -1,9 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
+  <h1><%= @category.name %></h1>
+
+<b>Opportunities in this Category</b>
+
+<ul>
+	<li><% @category.opportunities.each do |opportunity| %></li>
+	<li><%= opportunity.name %></li>
+	<li><%= link_to 'Show', opportunity %></li>
+	<% end %>
+</ul>
 
 <%= link_to 'Edit', edit_category_path(@category) %> |
 <%= link_to 'Back', categories_path %>
