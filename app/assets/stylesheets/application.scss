@@ -12,7 +12,6 @@ $white: #FFFFFF;
 $xx-light-gray: #F8F8F9;
 
 .main{
-	background:url('united-bg.png');
 
 	nav{
 		.nav-wrapper {
@@ -63,35 +62,29 @@ $xx-light-gray: #F8F8F9;
 		}  
 	}
 
-.card	{
-	border: 1px solid $xx-light-gray;
-	border-radius: .5em;
-  width: 85%;
-  height: 35em;
-  margin: auto;
-  margin-top: 10em;
-  margin-bottom:8em;
-  box-shadow: 0 1px 10px 1px;
-
-		.container{
-			margin-top: 10em;
-				.hero{
-					width:100%;
-					h1{
-					font-size: 4em;
-					text-align: center;
-					padding-bottom: 1em;
-				}
+	.container{
+		h1{
+			margin-top: 3em;
+			text-align: center;
+			padding-bottom: .5em;
+			font-size: 3em;
+		}
+			.hero{
+				width:100%;
+				h1{
+				font-size: 4em;
+				text-align: center;
+				padding-bottom: 1em;
 			}
-			
-			table{
-				thead{
-					border-bottom: none;
-				}
-				tr {
-					th {
-						text-align: center;
-					}
+		}
+		
+		table{
+			thead{
+				border-bottom: none;
+			}
+			tr {
+				th {
+					text-align: center;
 				}
 			}
 		}
