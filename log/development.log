@@ -16425,3 +16425,1578 @@ Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226b
 
 
 Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for ::1 at 2015-10-17 23:27:15 -0400
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:37:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OpportunitiesController#index as HTML
+  Rendered opportunities/index.html.erb within layouts/application (30.2ms)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `category' for nil:NilClass):
+    1: <p id="notice"><%= notice %></p>
+    2: 
+    3: <h1>Local Opportunities</h1>
+    4: <%= @opportunity.category.name %>
+    5: 
+    6: <table>
+    7:   <thead>
+  app/views/opportunities/index.html.erb:4:in `_app_views_opportunities_index_html_erb__3600312389315456423_70315727790200'
+
+
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (206.8ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (165.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (420.9ms)
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:39:55 -0400
+Processing by OpportunitiesController#index as HTML
+  Rendered opportunities/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `category' for nil:NilClass):
+    1: <p id="notice"><%= notice %></p>
+    2: 
+    3: <h1>Local Opportunities</h1>
+    4: <%= @opportunity.category.name %>
+    5: 
+    6: <table>
+    7:   <thead>
+  app/views/opportunities/index.html.erb:4:in `_app_views_opportunities_index_html_erb__3600312389315456423_70315727790200'
+
+
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (151.3ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (125.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (278.6ms)
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:40:23 -0400
+Processing by OpportunitiesController#index as HTML
+  Rendered opportunities/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `category' for nil:NilClass):
+    1: <p id="notice"><%= notice %></p>
+    2: 
+    3: <h1>Local Opportunities</h1>
+    4: <%= @opportunity.category.name %>
+    5: 
+    6: <table>
+    7:   <thead>
+  app/views/opportunities/index.html.erb:4:in `_app_views_opportunities_index_html_erb__3600312389315456423_70315727790200'
+
+
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (151.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (131.3ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (306.3ms)
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:40:39 -0400
+Processing by OpportunitiesController#index as HTML
+  Rendered opportunities/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `category' for nil:NilClass):
+    1: <p id="notice"><%= notice %></p>
+    2: 
+    3: <h1>Local Opportunities</h1>
+    4: <%= @opportunity.category.name %>
+    5: 
+    6: <table>
+    7:   <thead>
+  app/views/opportunities/index.html.erb:4:in `_app_views_opportunities_index_html_erb__3600312389315456423_70315727790200'
+
+
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (167.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (139.0ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (301.3ms)
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:41:17 -0400
+Processing by OpportunitiesController#index as HTML
+  [1m[35mOpportunity Load (0.7ms)[0m  SELECT "opportunities".* FROM "opportunities"
+  Rendered opportunities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 2231ms (Views: 2229.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/velocity.min.self-b01240ce1811a86e98a242cf1710553d1db34655f36b1e4ed745a7dc125db0ca.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/collapsible.self-bef6d527d6d38fc450d40f0e2733a1ccefc1817d34e041f69891c11b22642772.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/global.self-6278d27c18237cf0b6fcd96a6bf27f58369de2c4d26bcb45ac9c49a50c0ad80a.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/application.self-9cb16730253b16fc4ecb6a4568977960c568533c2438a3a10c76875fabac0364.css?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/dropdown.self-fae0917ba1dc6dc6cc00c9df451fd18ac72957677fb76b6291418398aaa3440c.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/leanModal.self-4db1374f875e0a1a2ba3389d23cae8f6f0c2672e7e69aeab7645ed51d26e6915.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/materialbox.self-697b2e84aa96b92b704f270bccaf72f5b0839012265d47e20695d6c7e54041b1.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/tabs.self-8b03a508bef52283d6f302037fd672ca9d379a1901d72baa59418484071b8cbf.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/scrollspy.self-9bd8d701ac90c813a0d051ab4943150bdb536d863646d8b349c42a88edb31cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/slider.self-b45587c52188bb778a060d2deee7c89f76474b48bc44559a0f8ca0b42a738b9b.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/sideNav.self-edaf1f17663d1cdb6a2c7ea0888ffc6b25a8d279e45ec96a63524893d7f99bfe.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/toasts.self-e6883cac22ad22f88149b85c3e9efdee36fba56008586f550e6cb647386e0407.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/tooltip.self-cd3548bc6934ec5af60f0e60c1146ebfeafac763b904e6f896119f1cd5c52a6e.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/forms.self-3bb4c6691a15a59ee12a1577c137f5849d58265b45a01f2bd76dbd9a963083d4.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/cards.self-e21f14b1b3c6987af4297d4da8ff5de59296ff2e37e2d062ec0c6d2dff4c8001.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:19 -0400
+
+
+Started GET "/assets/materialize/pushpin.self-3e487290a48f23142c992c158b45cbd0be9c83de7c23abbb33b195954d1883cd.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize/buttons.self-e24986f138b11adc95249c0795e0357b52be8177ce2e894d41818868f51b09ed.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize/scrollFire.self-f18a16d9bb0e0177e01b0326e41c601a6a85bb6a00dbca34593f88a6c89770d2.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.self-f7869dc9881d3874917e009ea6e30d68817b1bd1247665fb653e0f87393fb60f.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize-sprockets.self-a66b8b29b6eb6d8d6ac137234cb5d8f49f9bb4507a678c7f3ff97659a36ae3b0.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/materialize/character_counter.self-f3a78940ad5b851c1b7b79d86a5d5d9bdf0dc15e0e58e2a58b3eb57d845fbd37.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-0e86d9de4b99cb242de337a342f957f4872f686afc40f31f32d855672b1cd878.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.self-d7697643296439a8f6aadbf22a229d8ce9b4e8e530ca854164398141006bcfda.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/active_admin/application.self-a3af293ab9b99c4cc3bdde3420d9ab58f52b9fe9ceb1dfad2d517a81e6c15cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/opportunities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/application.self-3d804e063ec49c67e1251ebed8e9fb39a20b16c8cf36f1e2f47a2410b2e0599d.js?body=1" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/logo-a40ffc721b810d8caaafbedfc68dba2803fa51bddceccdf0de3d4dc20923b61b.png" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for 127.0.0.1 at 2015-10-17 23:41:20 -0400
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:41:25 -0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 805ms (Views: 803.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:41:26 -0400
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered categories/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 704ms (Views: 702.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-10-17 23:41:28 -0400
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.erb (51.7ms)
+  Rendered categories/new.html.erb within layouts/application (56.1ms)
+Completed 200 OK in 723ms (Views: 717.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2015-10-17 23:41:32 -0400
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rR+tzL5BH8XrrrUj4Y2FMUlzIuBLGjXuqp+v0vhmwD5Q1HYm9po7YXpijE07SCFKm1JKnakAxuiS/Ko39qnrhg==", "category"=>{"name"=>"test"}, "commit"=>"Create Category"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "test"], ["created_at", "2015-10-18 03:41:32.707613"], ["updated_at", "2015-10-18 03:41:32.707613"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 26ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:41:32 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 810ms (Views: 730.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:41:36 -0400
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered categories/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 625ms (Views: 623.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:41:39 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOpportunity Load (0.1ms)[0m  SELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 708ms (Views: 705.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:41:44 -0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 678ms (Views: 677.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:41:48 -0400
+Processing by OpportunitiesController#index as HTML
+  [1m[35mOpportunity Load (0.2ms)[0m  SELECT "opportunities".* FROM "opportunities"
+  Rendered opportunities/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 729ms (Views: 728.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:41:49 -0400
+Processing by OpportunitiesController#index as HTML
+  [1m[36mOpportunity Load (0.3ms)[0m  [1mSELECT "opportunities".* FROM "opportunities"[0m
+  Rendered opportunities/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 707ms (Views: 705.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/opportunities/new" for 127.0.0.1 at 2015-10-17 23:41:51 -0400
+Processing by OpportunitiesController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered opportunities/_form.html.erb (28.7ms)
+  Rendered opportunities/new.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 856ms (Views: 848.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/opportunities/new" for 127.0.0.1 at 2015-10-17 23:42:18 -0400
+Processing by OpportunitiesController#new as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered opportunities/_form.html.erb (5.1ms)
+  Rendered opportunities/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 760ms (Views: 758.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/velocity.min.self-b01240ce1811a86e98a242cf1710553d1db34655f36b1e4ed745a7dc125db0ca.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/global.self-6278d27c18237cf0b6fcd96a6bf27f58369de2c4d26bcb45ac9c49a50c0ad80a.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/dropdown.self-fae0917ba1dc6dc6cc00c9df451fd18ac72957677fb76b6291418398aaa3440c.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/collapsible.self-bef6d527d6d38fc450d40f0e2733a1ccefc1817d34e041f69891c11b22642772.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/leanModal.self-4db1374f875e0a1a2ba3389d23cae8f6f0c2672e7e69aeab7645ed51d26e6915.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/tooltip.self-cd3548bc6934ec5af60f0e60c1146ebfeafac763b904e6f896119f1cd5c52a6e.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/materialbox.self-697b2e84aa96b92b704f270bccaf72f5b0839012265d47e20695d6c7e54041b1.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/tabs.self-8b03a508bef52283d6f302037fd672ca9d379a1901d72baa59418484071b8cbf.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/application.self-9cb16730253b16fc4ecb6a4568977960c568533c2438a3a10c76875fabac0364.css?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/forms.self-3bb4c6691a15a59ee12a1577c137f5849d58265b45a01f2bd76dbd9a963083d4.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/scrollspy.self-9bd8d701ac90c813a0d051ab4943150bdb536d863646d8b349c42a88edb31cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/sideNav.self-edaf1f17663d1cdb6a2c7ea0888ffc6b25a8d279e45ec96a63524893d7f99bfe.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/cards.self-e21f14b1b3c6987af4297d4da8ff5de59296ff2e37e2d062ec0c6d2dff4c8001.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/buttons.self-e24986f138b11adc95249c0795e0357b52be8177ce2e894d41818868f51b09ed.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/toasts.self-e6883cac22ad22f88149b85c3e9efdee36fba56008586f550e6cb647386e0407.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/scrollFire.self-f18a16d9bb0e0177e01b0326e41c601a6a85bb6a00dbca34593f88a6c89770d2.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/pushpin.self-3e487290a48f23142c992c158b45cbd0be9c83de7c23abbb33b195954d1883cd.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize-sprockets.self-a66b8b29b6eb6d8d6ac137234cb5d8f49f9bb4507a678c7f3ff97659a36ae3b0.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.self-f7869dc9881d3874917e009ea6e30d68817b1bd1247665fb653e0f87393fb60f.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/slider.self-b45587c52188bb778a060d2deee7c89f76474b48bc44559a0f8ca0b42a738b9b.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/materialize/character_counter.self-f3a78940ad5b851c1b7b79d86a5d5d9bdf0dc15e0e58e2a58b3eb57d845fbd37.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-0e86d9de4b99cb242de337a342f957f4872f686afc40f31f32d855672b1cd878.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.self-d7697643296439a8f6aadbf22a229d8ce9b4e8e530ca854164398141006bcfda.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:19 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/application.self-a3af293ab9b99c4cc3bdde3420d9ab58f52b9fe9ceb1dfad2d517a81e6c15cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/application.self-3d804e063ec49c67e1251ebed8e9fb39a20b16c8cf36f1e2f47a2410b2e0599d.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/opportunities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/logo-a40ffc721b810d8caaafbedfc68dba2803fa51bddceccdf0de3d4dc20923b61b.png" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2015-10-17 23:42:20 -0400
+
+
+Started POST "/opportunities" for 127.0.0.1 at 2015-10-17 23:42:38 -0400
+Processing by OpportunitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lebc0PGPKOo+smSW7feYGkqeC2ScaWAaLqq9rVNVs3loLQc6uVQMTq9+Xfg3MjxhmL9jGX5zkxwWybhIXZqYwQ==", "opportunity"=>{"name"=>"test opp", "location"=>"123 Fake st. Charlotte, NC 28205", "contact"=>"555 1234", "category_id"=>"1"}, "button"=>""}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "opportunities" ("name", "location", "contact", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "test opp"], ["location", "123 Fake st. Charlotte, NC 28205"], ["contact", "555 1234"], ["category_id", 1], ["created_at", "2015-10-18 03:42:38.275546"], ["updated_at", "2015-10-18 03:42:38.275546"]]
+  [1m[35m (15.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/opportunities/1
+Completed 302 Found in 23ms (ActiveRecord: 16.3ms)
+
+
+Started GET "/opportunities/1" for 127.0.0.1 at 2015-10-17 23:42:38 -0400
+Processing by OpportunitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOpportunity Load (0.4ms)[0m  [1mSELECT  "opportunities".* FROM "opportunities" WHERE "opportunities"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered opportunities/show.html.erb within layouts/application (66.4ms)
+Completed 200 OK in 948ms (Views: 944.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:42:43 -0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 640ms (Views: 638.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for 127.0.0.1 at 2015-10-17 23:42:44 -0400
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:42:46 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 648ms (Views: 646.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/opportunities/1" for 127.0.0.1 at 2015-10-17 23:42:48 -0400
+Processing by OpportunitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOpportunity Load (0.2ms)[0m  SELECT  "opportunities".* FROM "opportunities" WHERE "opportunities"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered opportunities/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 700ms (Views: 698.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:43:00 -0400
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered categories/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 698ms (Views: 696.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:43:31 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOpportunity Load (0.2ms)[0m  SELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 743ms (Views: 740.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:44:13 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOpportunity Load (0.2ms)[0m  SELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 826ms (Views: 824.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/velocity.min.self-b01240ce1811a86e98a242cf1710553d1db34655f36b1e4ed745a7dc125db0ca.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/global.self-6278d27c18237cf0b6fcd96a6bf27f58369de2c4d26bcb45ac9c49a50c0ad80a.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/collapsible.self-bef6d527d6d38fc450d40f0e2733a1ccefc1817d34e041f69891c11b22642772.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/dropdown.self-fae0917ba1dc6dc6cc00c9df451fd18ac72957677fb76b6291418398aaa3440c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/leanModal.self-4db1374f875e0a1a2ba3389d23cae8f6f0c2672e7e69aeab7645ed51d26e6915.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/application.self-9cb16730253b16fc4ecb6a4568977960c568533c2438a3a10c76875fabac0364.css?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/tabs.self-8b03a508bef52283d6f302037fd672ca9d379a1901d72baa59418484071b8cbf.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/materialbox.self-697b2e84aa96b92b704f270bccaf72f5b0839012265d47e20695d6c7e54041b1.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/sideNav.self-edaf1f17663d1cdb6a2c7ea0888ffc6b25a8d279e45ec96a63524893d7f99bfe.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/scrollspy.self-9bd8d701ac90c813a0d051ab4943150bdb536d863646d8b349c42a88edb31cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/tooltip.self-cd3548bc6934ec5af60f0e60c1146ebfeafac763b904e6f896119f1cd5c52a6e.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/forms.self-3bb4c6691a15a59ee12a1577c137f5849d58265b45a01f2bd76dbd9a963083d4.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/slider.self-b45587c52188bb778a060d2deee7c89f76474b48bc44559a0f8ca0b42a738b9b.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/toasts.self-e6883cac22ad22f88149b85c3e9efdee36fba56008586f550e6cb647386e0407.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/cards.self-e21f14b1b3c6987af4297d4da8ff5de59296ff2e37e2d062ec0c6d2dff4c8001.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/pushpin.self-3e487290a48f23142c992c158b45cbd0be9c83de7c23abbb33b195954d1883cd.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/buttons.self-e24986f138b11adc95249c0795e0357b52be8177ce2e894d41818868f51b09ed.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/character_counter.self-f3a78940ad5b851c1b7b79d86a5d5d9bdf0dc15e0e58e2a58b3eb57d845fbd37.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize-sprockets.self-a66b8b29b6eb6d8d6ac137234cb5d8f49f9bb4507a678c7f3ff97659a36ae3b0.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.self-f7869dc9881d3874917e009ea6e30d68817b1bd1247665fb653e0f87393fb60f.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/scrollFire.self-f18a16d9bb0e0177e01b0326e41c601a6a85bb6a00dbca34593f88a6c89770d2.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:14 -0400
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-0e86d9de4b99cb242de337a342f957f4872f686afc40f31f32d855672b1cd878.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.self-d7697643296439a8f6aadbf22a229d8ce9b4e8e530ca854164398141006bcfda.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/opportunities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/active_admin/application.self-a3af293ab9b99c4cc3bdde3420d9ab58f52b9fe9ceb1dfad2d517a81e6c15cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/application.self-3d804e063ec49c67e1251ebed8e9fb39a20b16c8cf36f1e2f47a2410b2e0599d.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/logo-a40ffc721b810d8caaafbedfc68dba2803fa51bddceccdf0de3d4dc20923b61b.png" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2015-10-17 23:44:15 -0400
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:44:47 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered categories/show.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    2: 
+    3:   <h1><%= @category.name %></h1>
+    4: 
+    5: <b>Local opportunities in <% @categoy.name %></b>
+    6: 
+    7: <ul>
+    8: 	<li><% @category.opportunities.each do |opportunity| %></li>
+  app/views/categories/show.html.erb:5:in `_app_views_categories_show_html_erb__256001732773123778_70315751368920'
+
+
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (178.8ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (163.4ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ham/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (362.4ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:44:58 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 730ms (Views: 728.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/velocity.min.self-b01240ce1811a86e98a242cf1710553d1db34655f36b1e4ed745a7dc125db0ca.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/dropdown.self-fae0917ba1dc6dc6cc00c9df451fd18ac72957677fb76b6291418398aaa3440c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/global.self-6278d27c18237cf0b6fcd96a6bf27f58369de2c4d26bcb45ac9c49a50c0ad80a.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/collapsible.self-bef6d527d6d38fc450d40f0e2733a1ccefc1817d34e041f69891c11b22642772.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/leanModal.self-4db1374f875e0a1a2ba3389d23cae8f6f0c2672e7e69aeab7645ed51d26e6915.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/application.self-9cb16730253b16fc4ecb6a4568977960c568533c2438a3a10c76875fabac0364.css?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/materialbox.self-697b2e84aa96b92b704f270bccaf72f5b0839012265d47e20695d6c7e54041b1.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/tabs.self-8b03a508bef52283d6f302037fd672ca9d379a1901d72baa59418484071b8cbf.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/tooltip.self-cd3548bc6934ec5af60f0e60c1146ebfeafac763b904e6f896119f1cd5c52a6e.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/scrollspy.self-9bd8d701ac90c813a0d051ab4943150bdb536d863646d8b349c42a88edb31cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/sideNav.self-edaf1f17663d1cdb6a2c7ea0888ffc6b25a8d279e45ec96a63524893d7f99bfe.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/forms.self-3bb4c6691a15a59ee12a1577c137f5849d58265b45a01f2bd76dbd9a963083d4.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/slider.self-b45587c52188bb778a060d2deee7c89f76474b48bc44559a0f8ca0b42a738b9b.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/pushpin.self-3e487290a48f23142c992c158b45cbd0be9c83de7c23abbb33b195954d1883cd.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/buttons.self-e24986f138b11adc95249c0795e0357b52be8177ce2e894d41818868f51b09ed.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/cards.self-e21f14b1b3c6987af4297d4da8ff5de59296ff2e37e2d062ec0c6d2dff4c8001.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/toasts.self-e6883cac22ad22f88149b85c3e9efdee36fba56008586f550e6cb647386e0407.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/scrollFire.self-f18a16d9bb0e0177e01b0326e41c601a6a85bb6a00dbca34593f88a6c89770d2.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.self-f7869dc9881d3874917e009ea6e30d68817b1bd1247665fb653e0f87393fb60f.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize/character_counter.self-f3a78940ad5b851c1b7b79d86a5d5d9bdf0dc15e0e58e2a58b3eb57d845fbd37.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/materialize-sprockets.self-a66b8b29b6eb6d8d6ac137234cb5d8f49f9bb4507a678c7f3ff97659a36ae3b0.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 127.0.0.1 at 2015-10-17 23:44:59 -0400
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-0e86d9de4b99cb242de337a342f957f4872f686afc40f31f32d855672b1cd878.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.self-d7697643296439a8f6aadbf22a229d8ce9b4e8e530ca854164398141006bcfda.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin/application.self-a3af293ab9b99c4cc3bdde3420d9ab58f52b9fe9ceb1dfad2d517a81e6c15cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/opportunities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/logo-a40ffc721b810d8caaafbedfc68dba2803fa51bddceccdf0de3d4dc20923b61b.png" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/application.self-3d804e063ec49c67e1251ebed8e9fb39a20b16c8cf36f1e2f47a2410b2e0599d.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for 127.0.0.1 at 2015-10-17 23:45:00 -0400
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:45:06 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 705ms (Views: 703.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/collapsible.self-bef6d527d6d38fc450d40f0e2733a1ccefc1817d34e041f69891c11b22642772.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/velocity.min.self-b01240ce1811a86e98a242cf1710553d1db34655f36b1e4ed745a7dc125db0ca.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/application.self-9cb16730253b16fc4ecb6a4568977960c568533c2438a3a10c76875fabac0364.css?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/dropdown.self-fae0917ba1dc6dc6cc00c9df451fd18ac72957677fb76b6291418398aaa3440c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/global.self-6278d27c18237cf0b6fcd96a6bf27f58369de2c4d26bcb45ac9c49a50c0ad80a.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/tooltip.self-cd3548bc6934ec5af60f0e60c1146ebfeafac763b904e6f896119f1cd5c52a6e.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/materialbox.self-697b2e84aa96b92b704f270bccaf72f5b0839012265d47e20695d6c7e54041b1.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/leanModal.self-4db1374f875e0a1a2ba3389d23cae8f6f0c2672e7e69aeab7645ed51d26e6915.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/tabs.self-8b03a508bef52283d6f302037fd672ca9d379a1901d72baa59418484071b8cbf.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/forms.self-3bb4c6691a15a59ee12a1577c137f5849d58265b45a01f2bd76dbd9a963083d4.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/toasts.self-e6883cac22ad22f88149b85c3e9efdee36fba56008586f550e6cb647386e0407.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/sideNav.self-edaf1f17663d1cdb6a2c7ea0888ffc6b25a8d279e45ec96a63524893d7f99bfe.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/cards.self-e21f14b1b3c6987af4297d4da8ff5de59296ff2e37e2d062ec0c6d2dff4c8001.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/scrollspy.self-9bd8d701ac90c813a0d051ab4943150bdb536d863646d8b349c42a88edb31cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/slider.self-b45587c52188bb778a060d2deee7c89f76474b48bc44559a0f8ca0b42a738b9b.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/pushpin.self-3e487290a48f23142c992c158b45cbd0be9c83de7c23abbb33b195954d1883cd.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/scrollFire.self-f18a16d9bb0e0177e01b0326e41c601a6a85bb6a00dbca34593f88a6c89770d2.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/buttons.self-e24986f138b11adc95249c0795e0357b52be8177ce2e894d41818868f51b09ed.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.self-f7869dc9881d3874917e009ea6e30d68817b1bd1247665fb653e0f87393fb60f.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize-sprockets.self-a66b8b29b6eb6d8d6ac137234cb5d8f49f9bb4507a678c7f3ff97659a36ae3b0.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/materialize/character_counter.self-f3a78940ad5b851c1b7b79d86a5d5d9bdf0dc15e0e58e2a58b3eb57d845fbd37.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:07 -0400
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-0e86d9de4b99cb242de337a342f957f4872f686afc40f31f32d855672b1cd878.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.self-d7697643296439a8f6aadbf22a229d8ce9b4e8e530ca854164398141006bcfda.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/active_admin/application.self-a3af293ab9b99c4cc3bdde3420d9ab58f52b9fe9ceb1dfad2d517a81e6c15cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/opportunities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/logo-a40ffc721b810d8caaafbedfc68dba2803fa51bddceccdf0de3d4dc20923b61b.png" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/application.self-3d804e063ec49c67e1251ebed8e9fb39a20b16c8cf36f1e2f47a2410b2e0599d.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for 127.0.0.1 at 2015-10-17 23:45:08 -0400
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:45:14 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 795ms (Views: 793.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/application.self-9cb16730253b16fc4ecb6a4568977960c568533c2438a3a10c76875fabac0364.css?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/velocity.min.self-b01240ce1811a86e98a242cf1710553d1db34655f36b1e4ed745a7dc125db0ca.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/leanModal.self-4db1374f875e0a1a2ba3389d23cae8f6f0c2672e7e69aeab7645ed51d26e6915.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/materialbox.self-697b2e84aa96b92b704f270bccaf72f5b0839012265d47e20695d6c7e54041b1.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/dropdown.self-fae0917ba1dc6dc6cc00c9df451fd18ac72957677fb76b6291418398aaa3440c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/tabs.self-8b03a508bef52283d6f302037fd672ca9d379a1901d72baa59418484071b8cbf.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/global.self-6278d27c18237cf0b6fcd96a6bf27f58369de2c4d26bcb45ac9c49a50c0ad80a.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/tooltip.self-cd3548bc6934ec5af60f0e60c1146ebfeafac763b904e6f896119f1cd5c52a6e.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/sideNav.self-edaf1f17663d1cdb6a2c7ea0888ffc6b25a8d279e45ec96a63524893d7f99bfe.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/toasts.self-e6883cac22ad22f88149b85c3e9efdee36fba56008586f550e6cb647386e0407.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/scrollspy.self-9bd8d701ac90c813a0d051ab4943150bdb536d863646d8b349c42a88edb31cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/cards.self-e21f14b1b3c6987af4297d4da8ff5de59296ff2e37e2d062ec0c6d2dff4c8001.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/slider.self-b45587c52188bb778a060d2deee7c89f76474b48bc44559a0f8ca0b42a738b9b.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/scrollFire.self-f18a16d9bb0e0177e01b0326e41c601a6a85bb6a00dbca34593f88a6c89770d2.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/pushpin.self-3e487290a48f23142c992c158b45cbd0be9c83de7c23abbb33b195954d1883cd.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/buttons.self-e24986f138b11adc95249c0795e0357b52be8177ce2e894d41818868f51b09ed.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/forms.self-3bb4c6691a15a59ee12a1577c137f5849d58265b45a01f2bd76dbd9a963083d4.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.self-f7869dc9881d3874917e009ea6e30d68817b1bd1247665fb653e0f87393fb60f.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize-sprockets.self-a66b8b29b6eb6d8d6ac137234cb5d8f49f9bb4507a678c7f3ff97659a36ae3b0.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/materialize/character_counter.self-f3a78940ad5b851c1b7b79d86a5d5d9bdf0dc15e0e58e2a58b3eb57d845fbd37.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/datepicker.self-6267be6d4d0f0e8665be3b4d6ac07f40ba23a32aff8eaa5d1bfc00f76a9eeae7.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/button.self-4d4f21ba77bbf8cc08ae65e2b6329a7a1b952b32c3ba7bffca8313e7e8c93d0c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/resizable.self-60b870565f3cd62982c1907828119bb51f42ec8228d5e23868153edc3abc685c.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-10ee4c07784b00259ca97a02c4e7fb53c1b27ebe5653a3b910426b4ea0941250.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:15 -0400
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/jquery-ui/dialog.self-5a6c7980dfa3f6b74445b0f4b20eed799ee65363163500ed7f032e603d6b022d.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.self-d7697643296439a8f6aadbf22a229d8ce9b4e8e530ca854164398141006bcfda.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-161387c54d1640bd9f174301b77d73ea88ce6d7daf0d7356bd50b4d0143d1b72.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ffdc88fc1b3b6bcfac3e314f191fc486175ab5a4b5daab87af6bd208cb483bd8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-0e86d9de4b99cb242de337a342f957f4872f686afc40f31f32d855672b1cd878.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/jquery-ui/tabs.self-dc07b44bf1b926c8d28ccd2658e30933881e5329348caf70cf305c3943f6bbd7.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/opportunities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/application.self-3d804e063ec49c67e1251ebed8e9fb39a20b16c8cf36f1e2f47a2410b2e0599d.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/application.self-a3af293ab9b99c4cc3bdde3420d9ab58f52b9fe9ceb1dfad2d517a81e6c15cf8.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/materialize/collapsible.self-bef6d527d6d38fc450d40f0e2733a1ccefc1817d34e041f69891c11b22642772.js?body=1" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/logo-a40ffc721b810d8caaafbedfc68dba2803fa51bddceccdf0de3d4dc20923b61b.png" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/roboto/Roboto-Bold-8b84b2abc336ee61f48a28a697b6ace2333ea5f1868aa15d5aeb2c7beac6d716.woff2" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2015-10-17 23:45:16 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 23:46:30 -0400
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered categories/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 712ms (Views: 710.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 23:46:30 -0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 668ms (Views: 666.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:46:40 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 694ms (Views: 692.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:48:29 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.1ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 672ms (Views: 669.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/opportunities/1" for 127.0.0.1 at 2015-10-17 23:48:41 -0400
+Processing by OpportunitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOpportunity Load (0.2ms)[0m  SELECT  "opportunities".* FROM "opportunities" WHERE "opportunities"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered opportunities/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 642ms (Views: 639.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/roboto/Roboto-Medium-1cd5c4b37938d932110ec043ce1cc766d18cacf7a4e7cffa6a539855d5bdc08d.woff2" for 127.0.0.1 at 2015-10-17 23:48:42 -0400
+
+
+Started GET "/opportunities" for 127.0.0.1 at 2015-10-17 23:49:27 -0400
+Processing by OpportunitiesController#index as HTML
+  [1m[35mOpportunity Load (0.3ms)[0m  SELECT "opportunities".* FROM "opportunities"
+  Rendered opportunities/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 680ms (Views: 677.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:52:20 -0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 699ms (Views: 697.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:52:37 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.1ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 717ms (Views: 715.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2015-10-17 23:53:13 -0400
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOpportunity Load (0.2ms)[0m  [1mSELECT "opportunities".* FROM "opportunities" WHERE "opportunities"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 658ms (Views: 656.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/opportunities/1" for 127.0.0.1 at 2015-10-17 23:54:03 -0400
+Processing by OpportunitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOpportunity Load (0.2ms)[0m  SELECT  "opportunities".* FROM "opportunities" WHERE "opportunities"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered opportunities/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 688ms (Views: 686.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-10-17 23:54:55 -0400
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered categories/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 657ms (Views: 656.2ms | ActiveRecord: 0.2ms)
