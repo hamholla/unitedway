@@ -11,14 +11,26 @@
 </head>
 <body>
 
+<style type="text/css">
+
+.home {
+	width: 80%;
+  margin: auto;
+  margin-top: 5em;
+  text-align: center;
+  font-size: 2em;
+}
+
+</style>
+
 	<div class="home">
+		<img src="https://secure.unitedway.org/page/-/GCL/gcl_toolkit_downloads/logos/2012/Live%20United%20United%20Way%20Lock%20Up%20Artwork/rgb/jpg/united-way-lock-up-rgb.jpg">
 		<p>Get United.</p>
 		<p>We've created an app that makes it easier than ever to start giving back.</p>
 		<p>All you need to do is find your calling.</p>
-		<a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Get Started</a>
+
+		<%= link_to 'Get Started', location_index_path, class:"btn blue lighten-2 waves-effect waves-light" %>
 	</div>
 
 </body>
 </html>
-
-#new_user > div:nth-child(3)
