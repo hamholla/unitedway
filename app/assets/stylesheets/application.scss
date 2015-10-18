@@ -69,6 +69,17 @@ $xx-light-gray: #F8F8F9;
     	background-size: 83em 23em;
     	background-repeat: no-repeat;
     	height: 17em;
+	    margin-bottom: 1em;
+	    margin-top: 7em;
+		}
+		.row {
+			.col.s3{
+				.card {
+					text-align: center;
+					img{
+					}
+				}
+			}
 		}
 		h1{
 			margin-top: 2em;
@@ -77,6 +88,7 @@ $xx-light-gray: #F8F8F9;
 	    font-size: 3em;
 	    line-height: 2;
 	    color: white;
+	    -webkit-text-stroke: .7px gray;
 		}
 			.hero{
 				width:100%;
@@ -84,6 +96,7 @@ $xx-light-gray: #F8F8F9;
 				font-size: 4em;
 				text-align: center;
 				padding-bottom: 1em;
+
 			}
 		}
 		
@@ -99,3 +112,5 @@ $xx-light-gray: #F8F8F9;
 		}
 	}
 }
+
+
