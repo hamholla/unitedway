@@ -5,6 +5,7 @@ class OpportunitiesController < ApplicationController
   # GET /opportunities.json
   def index
     @opportunities = Opportunity.all
+    @categories = Category.all
   end
 
   # GET /opportunities/1

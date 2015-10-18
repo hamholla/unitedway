@@ -2,7 +2,7 @@
 
   <h1><%= @category.name %></h1>
 
-<b>Opportunities in this Category</b>
+<b>Local opportunities in <%= @category.name %></b>
 
 <ul>
 	<li><% @category.opportunities.each do |opportunity| %></li>
