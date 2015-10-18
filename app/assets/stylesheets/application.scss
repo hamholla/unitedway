@@ -2,67 +2,97 @@
 $primary-color: color("blue", "lighten-2") !default;
 @import 'materialize';
 
-nav{
-	.nav-wrapper {
-		background-color: #10167F;
-		position: relative;
-	    height: 10em;
-	    padding-top: 4em;
-	    text-transform: uppercase;
+//////////////////
+//// Colors //////
+//////////////////
+$blue: #2554A7;
+$yellow: #F7A83A;
+$red: #ED3C35;
+$white: #FFFFFF;
+$xx-light-gray: #F8F8F9;
+
+.main{
+	background:url('united-bg.png');
+
+	nav{
+		.nav-wrapper {
+			background-color: $blue;
+			position: relative;
+		    height: 10em;
+		    padding-top: 4em;
+		    text-transform: uppercase;
 	    .brand-logo {
 				margin-left: 2em;
 				line-height: 1.8em;
+				&:hover{
+					color: $yellow;
+				}
 	    }
-	    .hide-on-med-and-down {
-			margin-right: 7em;
-	    }
-    ul {
-    	a {
-    	margin-left: 1.5em;
-    	font-size: 1.2em;
-	    	&:hover{
-	    		color: #FF9600;
-	    	}
-	    }
-    }  
+		  .hide-on-med-and-down {
+				margin-right: 5em;
+				li {
+					&:hover, .active {
+						background-color: transparent;
+					}
+		    	a {
+		    	margin-left: 1.5em;
+		    	font-size: 1.2em;
+			    	&:hover{
+			    		color: $yellow;
+			    	}
+			    }
+		    }
+		   }  
+		}
+		.side-nav {
+			&:first-child{
+				margin-top:2px;
+			}
+			img {
+				border: 0;
+	    		height: 8em;
+	    		width: 100%;
+	    		margin-top: 2.2em;
+			}
+		}
+		.button-collapse{
+			i{
+				margin-left: 1em;
+				line-height: 1.4em;
+			}
+		}  
 	}
-	.side-nav {
-		&:first-child{
-			margin-top:2px;
-		}
-		img {
-			border: 0;
-    		height: 8em;
-    		width: 100%;
-    		margin-top: 2.2em;
-		}
-	}
-	.button-collapse{
-		i{
-			margin-left: 1em;
-			line-height: 1.4em;
-		}
-	}  
-}
 
-.container{
-	margin-top: 10em;
-		.hero{
-			width:100%;
-			h1{
-			font-size: 4em;
-			text-align: center;
-			padding-bottom: 1em;
-		}
-	}
-	
-	table{
-		thead{
-			border-bottom: none;
-		}
-		tr {
-			th {
-				text-align: center;
+.card	{
+	border: 1px solid $xx-light-gray;
+	border-radius: .5em;
+  width: 85%;
+  height: 35em;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom:8em;
+  box-shadow: 0 1px 10px 1px;
+
+		.container{
+			margin-top: 10em;
+				.hero{
+					width:100%;
+					h1{
+					font-size: 4em;
+					text-align: center;
+					padding-bottom: 1em;
+				}
+			}
+			
+			table{
+				thead{
+					border-bottom: none;
+				}
+				tr {
+					th {
+						text-align: center;
+					}
+				}
 			}
 		}
 	}
