@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navigation Component</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">United Way</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav pull-left">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Local Opportunities</a></li>
+            <li><a href="#">Committed</a></li>
+          </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="subcategory-header">
+      <div class="jumbotron">
+        <h1>Administrative Services</h1>
+        <h2>Find your match for all outdoor opportunities below. Click or tap the “Learn more” button to get paired with an organization.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="../images/admin.png" alt="Administrative Service">
+          <div class="caption">
+            <h3>Administrative</h3>
+            <p>From: October 9, 2015 9:00am</p>
+            <p>To: October 9, 2015 5:00pm</p>
+            <p>Where: 123 Fake St. Charlotte, NC 28202</p>
+            <p>Notification: via e-mail</p>
+            <p>Contact: 704-555-1111</p>
+            <p><a href="#" class="btn btn-primary pull-right" role="button">Get Involved!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="../images/admin.png" alt="Administration">
+          <div class="caption">
+            <h3>{{subcategory}}</h3>
+            <p>{{start.date}}</p>
+            <p>{{end.date}}</p>
+            <p>{{location}}</p>
+            <p>{{notification}}</p>
+            <p>{{contact}}</p>
+            <p><a href="#" class="btn btn-primary pull-right" role="button">Get Involved!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="../images/admin.png" alt="Administration">
+          <div class="caption">
+            <h3>{{subcategory}}</h3>
+            <p>{{start.date}}</p>
+            <p>{{end.date}}</p>
+            <p>{{location}}</p>
+            <p>{{notification}}</p>
+            <p>{{contact}}</p>
+            <p><a href="#" class="btn btn-primary pull-right" role="button">Get Involved!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="../images/admin.png" alt="Administration">
+          <div class="caption">
+            <h3>{{subcategory}}</h3>
+            <p>{{start.date}}</p>
+            <p>{{end.date}}</p>
+            <p>{{location}}</p>
+            <p>{{notification}}</p>
+            <p>{{contact}}</p>
+            <p><a href="#" class="btn btn-primary pull-right" role="button">Get Involved!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="../images/admin.png" alt="Administration">
+          <div class="caption">
+            <h3>{{subcategory}}</h3>
+            <p>{{start.date}}</p>
+            <p>{{end.date}}</p>
+            <p>{{location}}</p>
+            <p>{{notification}}</p>
+            <p>{{contact}}</p>
+            <p><a href="#" class="btn btn-primary pull-right" role="button">Get Involved!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="../images/admin.png" alt="Administration">
+          <div class="caption">
+            <h3>{{subcategory}}</h3>
+            <p>{{start.date}}</p>
+            <p>{{end.date}}</p>
+            <p>{{location}}</p>
+            <p>{{notification}}</p>
+            <p>{{contact}}</p>
+            <p><a href="#" class="btn btn-primary pull-right" role="button">Get Involved!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
